@@ -46,7 +46,7 @@ const ChartComponent = ({data}) =>{
         }
     }
     return(
-        <div className="w-[60%] h-[60%] flex flex-col ">
+        <div className="flex flex-col ">
             <Bar data={Data} options={options}></Bar>
             <div className="px-10 my-2 mt-10 flex items-center justify-between w-[33%]">
                 <div className="bg-[#23CFCF] w-[10px] h-[2px]"></div>
